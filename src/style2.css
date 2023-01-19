@@ -1,0 +1,1081 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Playfair+Display&display=swap');
+
+body {
+  margin: 0;
+}
+
+.topmenu ul{
+    list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.orn1{
+  height: 18vh;
+  width: 8vw;
+  margin-left: 2vw;
+}
+.topmenu{
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  width: 100%;
+  height: 18vh;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: rgb(73,135,187);
+  z-index: 100;
+}
+.topmenu li{
+  width: 150px;
+  height: 90px;
+  display: inline-block;
+  margin-top: 5px;
+  box-sizing: border-box;
+  color: white;  
+  font-family: 'Playfair Display', serif;
+}
+.menu11{
+  font-family: 'Playfair Display', serif;
+  font-size: 20pt;
+  color: white;
+  margin-left: 12vw;
+}
+.logomenu p{
+  margin-top: 3vh;
+  font-size: 30pt;
+  color: white;
+}
+.logomenu{
+  padding-top: 0px;
+  margin-left: 12vw;
+}
+.topmenu li p{
+  color: white;
+  text-decoration: none;  
+}
+ul li:hover{
+color: rgb(179, 179, 179 );
+transform: translateY(5px);
+transition: 1s;
+  text-decoration: none;
+}
+.submenu {
+  position: fixed;
+  z-index: 4;
+  left: 50%;
+  top: 100%;
+   width: 20vw;
+  padding: 0px 0 0px;
+  background: rgb(73,135,187);
+  box-shadow: 0 0 30px rgba(0,0,0,.2);
+  box-sizing: border-box;
+  visibility: hidden;
+  opacity: 0;
+  transform: translate(-50%, 20px);
+  transition: .3s;
+}
+.topmenu li:hover .submenu {
+  visibility: visible;
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+.submenu a {
+  font-size: 17px;
+  letter-spacing: 1px;
+  padding-top: 0;
+  transition: .3s linear;
+  color: white;
+  text-decoration: none;
+}
+.submenu li {
+  font-size: 17px;
+  letter-spacing: 1px;
+  transition: .3s linear;
+  font-family: 'Playfair Display', serif;
+  margin-top: 0;
+  padding-bottom: 0;
+  height: 10vh;
+  padding-top: 2vh;
+  color: white;
+  margin-left: 1vw;
+}
+
+.submenu a:hover {
+  color: rgb(179, 179, 179 );
+}
+.img1{
+  width: 100%;
+  height: auto;
+padding-top: 65px;
+}
+
+.site{
+  display: flex;
+  flex-direction: row;
+  background: rgb(201, 85, 73);
+  width: 100%;
+  height: 12vh;
+  margin-top: -0.7vh;
+}
+.site a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 28pt;
+  margin-top: 0vh;
+}
+.site p{
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 1vh;
+  margin-left: 6vw;
+  margin-right: 35vw;
+  width: 100%;
+}
+#food{
+  font-family: 'Oswald', sans-serif;
+  font-size: 28pt;
+  margin-top: 1vh;
+  margin-left: 24vw;
+  margin-right: 20vw;
+  color: white;
+}
+.site2{
+  display: flex;
+  flex-direction: row;
+  background: rgb(73,135,187);
+  width: 100%;
+  height: 12vh;
+  margin-top: -0.7vh;
+}
+
+.lines{
+  width: 100%;
+  margin-top: 30px; 
+  display: inline-block;
+  margin-left: 70px;
+}
+.lines p{
+  font-family: 'Playfair Display', serif;
+  font-size: 20pt;
+  letter-spacing: 2px;
+  font-weight: 500;
+  display: inline-block;
+}
+.line1{
+  height: 0.4vh;
+  width: 40vw;
+  display: inline-block;
+  margin-left: 7vw;
+  margin-bottom: 1vh;
+}
+
+.blocks1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-self: stretch;
+  margin-top: 2vh;
+  margin-left: -2vw;
+  height: auto;
+  width: auto;
+}
+.item1{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin-left: 2vw;
+  margin-bottom: 5vh;
+  height: auto;
+  width: 24vw;
+  text-align: center;
+  vertical-align: center;
+}
+.item1 p{
+  font-family: 'Playfair Display', serif;
+  font-size: 15pt;
+  color: black;
+  margin-top: 1vh;
+}
+.item1 a.rollover1 {
+    background: url(cloth.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 24vw;
+    height: 54vh;
+    align: center;
+    padding-bottom: 5vh;
+   }
+   a.rollover1:hover {
+    background: url(girl2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+.item2{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin-left: 2vw;
+  margin-bottom: 5vh;
+  height: auto;
+ width: 30vw;
+  text-align: center;
+  vertical-align: center;
+}
+.item2 p{
+  font-family: 'Playfair Display', serif;
+  font-size: 15pt;
+  color: black;
+  margin-top: 1vh;
+}
+.item2 a.rollover2 {
+    background: url(man1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 24vw;
+    height: 54vh;
+    align: center;
+    padding-bottom: 5vh;
+   }
+   a.rollover2:hover {
+    background: url(man2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+.item3{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin-left: 2vw;
+  margin-bottom: 5vh;
+  height: auto;
+  width: 24vw;
+  text-align: center;
+  vertical-align: center;
+}
+.item3 p{
+  font-family: 'Playfair Display', serif;
+  font-size: 15pt;
+  color: black;
+  margin-top: 1vh;
+}
+.item3 a.rollover3 {
+    background: url(girl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 24vw;
+    height: 54vh;
+    align: center;
+    padding-bottom: 5vh;
+   }
+   a.rollover3:hover {
+    background: url(kyz2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+.item1 a.rollover21 {
+    background: url(kerege.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 24vw;
+    height: 54vh;
+    align: center;
+    padding-bottom: 5vh;
+   }
+.item2 a.rollover22 {
+    background: url(shan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 24vw;
+    height: 54vh;
+    align: center;
+    padding-bottom: 5vh;
+   }
+.item3 a.rollover23 {
+    background: url(yurt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 24vw;
+    height: 54vh;
+    align: center;
+    padding-bottom: 5vh;
+   }
+.container1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+  margin-top: 8vh;
+  margin-left: 0px;
+height: 60vh;
+  width: auto;
+  background: rgb(250, 243, 205);
+}
+.text1{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin-left: 5vw;
+  height: auto;
+  width: 55vw;
+  vertical-align: center;
+  font-family: 'Playfair Display', serif;
+}
+.text1 h2{
+  font-size: 20pt;
+}
+.text1 p{
+  font-size: 13pt;
+}
+.container1 a.rollover11 {
+  background: url(abay.jpg);
+  margin-left: 0vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 27vw;
+    height: 60vh;
+    margin-top: -2.5vh;
+   }
+   a.rollover11:hover {
+    background: url(ait.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+.container1 a.rollover21 {
+  background: url(handi1.jpg);
+  margin-left: 0vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 27vw;
+    height: 60vh;
+    margin-top: -2.5vh;
+   }
+   a.rollover21:hover {
+    background: url(handi2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+.item1 a.rollover31 {
+    background: url(https://www.advantour.com/img/kazakhstan/culture/horse-games/kokpar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 24vw;
+    height: 54vh;
+    align: center;
+    padding-bottom: 5vh;
+   }
+.item2 a.rollover32 {
+    background: url(https://kazpravda.kz/media/uploads/publication2/119/50/119507-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 24vw;
+    height: 54vh;
+    align: center;
+    padding-bottom: 5vh;
+   }
+.item3 a.rollover33 {
+    background: url(https://eastroute.com/wp-content/uploads/2018/07/kis-kuu12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 24vw;
+    height: 54vh;
+    align: center;
+    padding-bottom: 5vh;
+   }
+
+.container1 a.rollover4 {
+  background: url(https://static.tildacdn.com/tild3532-3938-4732-a538-376338653066/83.jpg );
+  margin-left: 0vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 35vw;
+    height: 60vh;
+    margin-top: -2.5vh;
+   }
+   a.rollover4:hover {
+    background: url(https://musicnews.kz/wp-content/uploads/2013/02/2_IMG_2963.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+
+.item1 a.rollover41 {
+    background: url(mah.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 24vw;
+    height: 54vh;
+    align: center;
+    padding-bottom: 5vh;
+   }
+   a.rollover41:hover {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg_WHNpVrGZuLfWUCGjWsX0BJOjXsO0mJ-r_lXdoPjeTkMK0ytQqyK7N24_AArbIJ5V8Y&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+.item2 a.rollover42 {
+    background: url(kud.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 30vw;
+    height: 40vh;
+    align: center;
+    padding-bottom: 5vh;
+   }
+   a.rollover42:hover {
+    background: url(https://egemen.kz/media/2020/06/08/7.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+.item3 a.rollover43 {
+    background: url(kyz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 30vw;
+    height: 40vh;
+    align: center;
+    padding-bottom: 5vh;
+   }
+   a.rollover43:hover {
+    background: url(https://toibiznes.kz/imagecache/original/images/kyz-uzatu_1463554502.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+.container1 a.rollover51 {
+  background: url(https://syr-jurty.kz/wp-content/uploads/2021/12/unnamed-1.jpg);
+  margin-left: 0vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 35vw;
+    height: 60vh;
+    margin-top: -2.5vh;
+   }
+   a.rollover51:hover {
+    background: url(http://sun9-23.userapi.com/impg/jVRjnQzlvB_Q5l7vCIMX4w8YLwNn_JF5ZndjZQ/B1cw4AP5eqU.jpg?size=604x519&quality=96&sign=67be57a18dcc8bafaea8644c0840b621&type=album);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+.item1 a.rollover61 {
+    background: url(https://almaty.tv/news_photo/1616220144_news_b.jpeg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 26vw;
+    height: 28vh;
+    align: center;
+    padding-bottom: 5vh;
+   }
+   a.rollover61:hover {
+    background: url(https://thumb.tildacdn.com/tild6533-3866-4230-b636-643836363935/-/resize/824x/-/format/webp/image_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+.item2 a.rollover62 {
+    background: url(https://www.archive.inform.kz/fotoarticles/20190319220940.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 26vw;
+    height: 28vh;
+    align: center;
+    padding-bottom: 5vh;
+   }
+   a.rollover62:hover {
+    background: url(https://esalmaty.kz/images/photo/2022/03/nauryz_rus.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+.item3 a.rollover63 {
+    background: url(http://silkadv.com/sites/default/files/Kazahstan/Kultura/Igry/Audyryspak/0_1_22.03.2015%20800.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 26vw;
+    height: 28vh;
+    align: center;
+    padding-bottom: 5vh;
+   }
+   a.rollover63:hover {
+    background: url(https://dknews.kz/storage/news/2022-03/8UI8MMkwvjBqzVRg35v1jW4vc97SxscnSHLXQijg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+.container1 a.rollover64 {
+  background: url(https://kazpravda.kz/media/uploads/publication2/938/61/93861-image.jpg);
+  margin-left: 0vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 45vw;
+    height: 60vh;
+    margin-top: -2.5vh;
+   }
+   a.rollover64:hover {
+    background: url(https://black.kz/wp-content/uploads/2019/12/slide_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+.text2{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin-left: 5vw;
+  height: auto;
+  width: 45vw;
+  vertical-align: center;
+  font-family: 'Playfair Display', serif;
+}
+.text2 h2{
+  font-size: 20pt;
+}
+.text2 p{
+  font-size: 13pt;
+}
+
+.item1 a.rollover71 {
+    background: url(https://7kun.kz/wp-content/uploads/2015/04/88c8acd23703263c3337f366e33481ec_Generic1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 26vw;
+    height: 28vh;
+    align: center;
+    padding-bottom: 5vh;
+   }
+   a.rollover71:hover {
+    background: url(https://i.mycdn.me/i?r=AyH4iRPQ2q0otWIFepML2LxRfetXlSBpMrgn7kixs0VVZg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+.item2 a.rollover72 {
+    background: url(https://massaget.kz/userdata/news/news_42683/image_b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 26vw;
+    height: 28vh;
+    align: center;
+    padding-bottom: 5vh;
+   }
+   a.rollover72:hover {
+    background: url(https://ztb.kz/media/imperavi/57e588809acd5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+.item3 a.rollover73 {
+    background: url(http://ic.pics.livejournal.com/open_kz/61719910/208443/208443_600.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 26vw;
+    height: 28vh;
+    align: center;
+    padding-bottom: 5vh;
+   }
+   a.rollover73:hover {
+    background: url(https://kazpravda.kz/media/uploads/publication2/960/48/96048-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+.container1 a.rollover74 {
+  background: url(data:image/jpeg;base64,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);
+  margin-left: 0vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 40vw;
+    height: 60vh;
+    margin-top: -2.5vh;
+   }
+   a.rollover74:hover {
+    background: url(https://weproject.media/upload/medialibrary/799/799f2bd541353ee8480edac08541f6c3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+
+.container1 a.rollover15 {
+  background: url(https://proof.kz/files/uploads/obriad_bata_beru.jpg);
+  margin-left: 0vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 40vw;
+    height: 60vh;
+    margin-top: -2.5vh;
+   }
+   a.rollover15:hover {
+    background: url(http://img.playbuzz.com/image/upload/f_auto,fl_lossy,q_auto/cdn/567b69a4-c4f2-4585-83a5-0aeed08fea49/375c25f5-d26b-4538-8f12-0b7d548dc2a7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+.item1 a.rollover16 {
+    background: url(http://sun9-11.userapi.com/impf/c624018/v624018795/4551d/UhcB9pBkH_M.jpg?size=604x537&quality=96&sign=2165c12f5a138a9261e1b7d7c67c483c&type=album);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 24vw;
+    height: 40vh;
+    align: center;
+    padding-bottom: 5vh;
+   }
+   a.rollover16:hover {
+    background: url(http://sun9-10.userapi.com/impf/c623830/v623830520/16f87/4ecZasUEohg.jpg?size=450x453&quality=96&sign=d0e8bdffef159df48e606da179954963&type=album);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+.item2 a.rollover17 {
+    background: url(https://static.tildacdn.com/tild6362-3637-4861-b130-376130626361/3fe37fb01fca4b0d891e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 24vw;
+    height: 40vh;
+    align: center;
+    padding-bottom: 5vh;
+   }
+   a.rollover17:hover {
+    background: url(https://imgtest.mir24.tv/uploaded/images/2021/September/730c4f8028bac7abd3db7cdfd75fdf77b2843aaba4fa08652f5af22465980f8f.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+.item3 a.rollover18 {
+    background: url(kon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 24vw;
+    height: 40vh;
+    align: center;
+    padding-bottom: 5vh;
+   }
+   a.rollover18:hover {
+    background: url(https://i.mycdn.me/i?r=AzEPZsRbOZEKgBhR0XGMT1Rkw5OEBxB60ZHo7XYjlLc--aaKTM5SRkZCeTgDn6uOyic);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+.container1 a.rollover19 {
+  background: url(https://static.365info.kz/uploads/2019/01/2ebbc313512d7cc1ee35553277a9049d-e1548910746817.jpg);
+  margin-left: 0vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 40vw;
+    height: 60vh;
+    margin-top: -2.5vh;
+   }
+   a.rollover19:hover {
+    background: url(http://sun9-81.userapi.com/impf/c849220/v849220403/131286/vVYYAKSBU-I.jpg?size=604x338&quality=96&sign=554c04bef37d7dfa22c7cb803644f041&type=album);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+.item1 a.rollover25 {
+    background: url(http://qamshy.kz/media/2022/07/19/crop-61_2_484x860_b17d2089-86fe-44d5-9669-eb53142b5960-960x500.jpeg?width=600&height=315);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 26vw;
+    height: 28vh;
+    align: center;
+    padding-bottom: 5vh;
+   }
+   a.rollover25:hover {
+    background: url(https://el.kz/upload/medialibrary/7f9/7f941544f408895a3e67a69bc54ac4a5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+.item2 a.rollover26 {
+    background: url(https://kazpravda.kz/media/uploads/publication2/116/27/116274-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 26vw;
+    height: 28vh;
+    align: center;
+    padding-bottom: 5vh;
+   }
+   a.rollover26:hover {
+    background: url(http://bilim-all.kz//uploads/images/2019/05/16/original/bb2d0104d18cd3bc85afc37621bc546d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+.item3 a.rollover27 {
+    background: url(https://pandaland.kz/uploads/FILES/c93/c93e4f1cbdc6f46ae29e06fd292a1fa6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 26vw;
+    height: 28vh;
+    align: center;
+    padding-bottom: 5vh;
+   }
+   a.rollover27:hover {
+    background: url(https://pandaland.kz/uploads/FILES/281/2813340a31fe83f56349cd71a8c84b6e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+.container1 a.rollover28 {
+  background: url(https://upload.wikimedia.org/wikipedia/kk/thumb/e/e5/%D0%91%D0%B5%D1%82%D0%B0%D1%88%D0%B0%D1%80.jpg/300px-%D0%91%D0%B5%D1%82%D0%B0%D1%88%D0%B0%D1%80.jpg);
+  margin-left: 0vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 40vw;
+    height: 60vh;
+    margin-top: -2.5vh;
+   }
+   a.rollover28:hover {
+    background: url(https://kzvesti.kz/wp-content/uploads/2022/09/betashar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+.site3{
+  display: flex;
+  flex-direction: row;
+  background: rgb(201, 85, 73);
+  width: 100%;
+  height: 12vh;
+  margin-top: -0.7vh;
+}
+.site3 a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 28pt;
+  margin-top: 0vh;
+}
+.site3 p{
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 1vh;
+  margin-left: 12vw;
+  margin-right: 7vw;
+}
+.item1 a.rollover35 {
+    background: url(https://kaz.tengrinews.kz/userdata/news_kk/2018/news_294098/thumb_m/photo_52201.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 26vw;
+    height: 28vh;
+    align: center;
+    padding-bottom: 5vh;
+   }
+   a.rollover35:hover {
+    background: url(http://anamenbala.kz/wp-content/uploads/2012/01/ashamaiga_minu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+.item2 a.rollover36 {
+    background: url(https://sun9-29.userapi.com/impg/c855624/v855624298/21e93d/WveDzZSi3VU.jpg?size=960x587&quality=96&sign=afc24c437814b644fe20e45c6bcf9664&c_uniq_tag=3FmT-HpDvfCM7nflQKGWFJ_CQT6o9SpvXzf198lRJ1k&type=album);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 26vw;
+    height: 28vh;
+    align: center;
+    padding-bottom: 5vh;
+   }
+   a.rollover36:hover {
+    background: url(https://kaz.365info.kz/wp-content/uploads/2021/12/2d9e3cde7eaa231916fa66d734c10889-600x400.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+.item3 a.rollover37 {
+    background: url(bast.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 26vw;
+    height: 28vh;
+    align: center;
+    padding-bottom: 5vh;
+   }
+   a.rollover37:hover {
+    background: url(http://stan.kz/wp-content/uploads/2016/12/glx9VbfOLsE.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+.container1 a.rollover38 {
+  background: url(https://toibiznes.kz/imagecache/original/images/16062017115207_f3ccdd27d2000e3f9255a7e3e2c48800.jpg);
+  margin-left: 0vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 34vw;
+    height: 60vh;
+    margin-top: -2.5vh;
+   }
+   a.rollover38:hover {
+    background: url(https://the-steppe.com/templateEditor/kcfinder/upload/files/kursaktoi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+.item1 a.rollover45 {
+    background: url(https://old.aqmeshit-aptalygy.kz/uploads/posts/2020-07/1594701923_100656133_281132943041037_1230655385805519820_n.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 22vw;
+    height: 40vh;
+    align: center;
+    padding-bottom: 5vh;
+   }
+   a.rollover45:hover {
+    background: url(https://massaget.kz/userdata/news/news_22391/image_l.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+.item2 a.rollover46 {
+    background: url(https://the-steppe.com/templateEditor/kcfinder/upload/files/shashoru.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 22vw;
+    height: 40vh;
+    align: center;
+    padding-bottom: 5vh;
+   }
+   a.rollover46:hover {
+    background: url(https://osken-onir.kz/uploads/posts/2018-02/1519552839_keln.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+.item3 a.rollover47 {
+    background: url(salem.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 22vw;
+    height: 40vh;
+    align: center;
+    padding-bottom: 5vh;
+   }
+   a.rollover47:hover {
+    background: url(salem2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+.container1 a.rollover48 {
+  background: url(http://multivarka-receptik.ru/wp-content/uploads/2022/10/beshbarmak-reczept-klassicheskij.jpg);
+  margin-left: 0vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 44vw;
+    height: 60vh;
+    margin-top: -2.5vh;
+   }
+   a.rollover48:hover {
+    background: url(https://gotovim-doma.ru/images/recipe/5/f0/5f04fa23ab66f683bae8b27c776cc95b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+.item1 a.rollover55 {
+    background: url(https://calorizator.ru/sites/default/files/imagecache/recipes_full/recipe/14071.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 26vw;
+    height: 30vh;
+    align: center;
+    padding-bottom: 5vh;
+   }
+.item2 a.rollover56 {
+    background: url(https://maida.kz/wp-content/uploads/2020/01/%D0%A1%D1%8B%D1%80%D0%BD%D0%B5-%D0%A2%D0%B0%D0%B1%D0%B0%D0%BA-10900-%D1%82%D0%B3_.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 26vw;
+    height: 30vh;
+    align: center;
+    padding-bottom: 5vh;
+   }
+   a.rollover56:hover {
+    background: url(https://images.satu.kz/175838375_w640_h640_syrne-iz-baraniny.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+.item3 a.rollover57 {
+    background: url(https://www.advantour.com/img/kazakhstan/dishes/irimshik.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 26vw;
+    height: 30vh;
+    align: center;
+    padding-bottom: 5vh;
+   }
+   a.rollover57:hover {
+    background: url(https://chef.tm/public/pics/124/124273_0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+.container1 a.rollover58 {
+  background: url(https://foodbay.com/wiki/wp-content/uploads/2020/09/eb995f.jpg);
+  margin-left: 0vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 44vw;
+    height: 60vh;
+    margin-top: -2.5vh;
+   }
+   a.rollover58:hover {
+    background: url(https://i.ytimg.com/vi/GdP2vJqxwj8/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+.container1 a.rollover78 {
+  background: url(girls.jpg);
+  margin-left: 0vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 44vw;
+    height: 60vh;
+    margin-top: -2.5vh;
+   }
+.orn2{
+  height: 12vh;
+  width: 6vw;
+  margin-left: 20px;
+}
+.orn3{
+  margin-left: 8vw;
+  height: 39vh;
+  z-index: 1;
+  margin-top: 0vh;
+}
+.orn4{
+  margin-left: 40vw;
+  height: 39vh;
+  z-index: 1;
+  margin-top: 0vh;
+}
+.blockk{
+  display: flex;
+  flex-direction: row;
+  height: 39vh;
+  width: 100%;
+  background-color: rgb(201, 85, 73);
+  margin-top: 8vh;
+}
+.end{
+  width: 100%;
+  background-color: rgb(201, 85, 73);
+  margin-top: 0px;
+  margin-left: 20vw;
+}
+.end p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30pt;
+}
+.end2 p{
+  font-family: 'Playfair Display', serif;
+  font-size: 18pt;
+  color: black;
+  margin-top: 3vh;
+}
+.end3{
+  background-color: rgb(73,135,187);
+  margin-top: 0px;
+}
+.end3 p{
+  margin-top: 5vh;
+  margin-bottom: 0px;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30pt;
+}
+.end2 p{
+  font-family: 'Playfair Display', serif;
+  font-size: 18pt;
+  color: black;
+  margin-top: 3vh;
+}
+.lines2{
+  width: 100%;
+  margin-top: 30px; 
+  display: inline-block;
+}
+.lines2 p{
+  font-family: 'Oswald', sans-serif;
+  font-size: 20pt;
+  letter-spacing: 2px;
+  font-weight: 500;
+  display: inline-block;
+}
+.line2{
+  height: 0.4vh;
+  width: 26vw;
+  display: inline-block;
+  margin-left: 2vw;
+  margin-bottom: 1vh;
+}
+.bibliography{
+  margin-top: 5vh;
+  width: 100%;
+  height: auto;
+  text-align: left;
+}
+.bibliography p, h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 15pt;
+  color: black;
+  margin-top: 3vh;
+  margin-left: 5vw;
+}
+.bibliography-pic{
+  margin-top: 5vh;
+  width: 100%;
+  height: auto;
+  text-align: left;
+}
+.bibliography-pic p, h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 10pt;
+  color: black;
+  margin-top: 3vh;
+  margin-left: 5vw;
+}
