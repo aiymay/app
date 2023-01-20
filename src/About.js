@@ -40,7 +40,7 @@ const About = observer(({lang}) => {
       </div>
     </ul>    
   </div>
-    <img className="img1" src={back7} alt='back7'/>
+    <img className="img1" src={back7} alt=''/>
 
      <div className="elements">
       <div className="container1">
