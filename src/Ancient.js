@@ -19,7 +19,7 @@ const Ancient = observer(({lang}) => {
         <main className='body'>
           <div className="menu">
 <ul className="topmenu">
-  <img className="orn1" src={orn1} />
+  <img className="orn1" src={orn1} alt=''/>
   <li className="menu11">
   {lang.lang == "En"?<p>Our articles</p>:<p>Наши статьи</p>}
     <div className="submenu1">
@@ -40,18 +40,18 @@ const Ancient = observer(({lang}) => {
       </div>
     </ul>    
   </div>
-    <img className="img1" src={back6} />
+    <img className="img1" src={back6} alt=''/>
 
       <div className="site3">
-        <img className="orn2" src={orn1} />
+        <img className="orn2" src={orn1} alt=''/>
         {lang.lang == "En"?<Link to='/ancient'><p>ANCIENT CUSTOMS AND TRADITIONS OF KAZAKH CULTURE</p></Link>:<Link to='/ancient'><p>ДРЕВНИЕ ОБЫЧАИ И ТРАДИЦИИ КАЗАХСКОЙ КУЛЬТУРЫ</p></Link>}
-        <img className="orn2" src={orn1} />
+        <img className="orn2" src={orn1} alt=''/>
       </div>
 
       
         <div className="lines">
         {lang.lang == "En"?<p>The earliest customs of the Kazakh people</p>:<p>Древние обычаи казахского народа</p>}
-        <img className="line1" src={line1} />
+        <img className="line1" src={line1} alt=''/>
         </div>
         <div className="blocks1">
        <div className="item1">
@@ -84,7 +84,7 @@ const Ancient = observer(({lang}) => {
 
     <div classv="lines">
     {lang.lang == "En"?<p>Ancient wedding customs</p>:<p>Древние свадебные традиции</p>}
-        <img className="line1" src={line2} />
+        <img className="line1" src={line2} alt=''/>
         </div>
         <div className="blocks1">
        <div className="item1">
@@ -107,9 +107,9 @@ const Ancient = observer(({lang}) => {
     </div> 
 
 <div className="site2">
-        <img className="orn2" src={orn1} />
+        <img className="orn2" src={orn1} alt=''/>
         {lang.lang == "En"?<p id="food">KAZAKH NATIONAL FOOD</p>:<p id="food">КАЗАХСКАЯ НАЦИОНАЛЬНАЯ ЕДА</p>}
-        <img className="orn2" src={orn1} /> 
+        <img className="orn2" src={orn1} alt=''/> 
       </div>
 
     <div className="container1">
@@ -123,7 +123,7 @@ const Ancient = observer(({lang}) => {
 
       <div className="lines">
       {lang.lang == "En"?<p>Kazy, Sirne, Irimshik</p>:<p>Казы, Сірне, Ірімшік</p>}
-        <img className="line1" src={line1} /> 
+        <img className="line1" src={line1} alt=''/> 
         </div>
         <div className="blocks1">
        <div className="item1">
@@ -218,7 +218,7 @@ https://i.ytimg.com/vi/GdP2vJqxwj8/maxresdefault.jpg </p>
     </div>
 
     <div className="blockk">
-      <img className="orn3" src={orn2} />
+      <img className="orn3" src={orn2} alt=''/>
       <center>
       <div className="end">
       {lang.lang == "En"?<p >PRODUCED BY</p>:<p>СОЗДАНО</p>}
@@ -228,7 +228,7 @@ https://i.ytimg.com/vi/GdP2vJqxwj8/maxresdefault.jpg </p>
       </div>
     </div> 
     </center>
-    <img class="orn4" src={orn2} />
+    <img class="orn4" src={orn2} alt=''/>
     </div>
 
         </main>
