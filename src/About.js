@@ -28,7 +28,6 @@ const About = observer(({lang}) => {
         {lang.lang === "En"?<Link to='/traditions'><li>Traditions of Kazakh culture</li></Link>:<Link to='/elements'><li>Традиции казахской культуры</li></Link>}
         {lang.lang === "En"?<Link to='/customs'><li>Customs of Kazakh culture</li></Link>:<Link to='/customs'><li>Обычаи казахской культуры</li></Link>}
         {lang.lang === "En"?<Link to='/ancient'><li>Ancient customs and traditions of Kazakh culture</li></Link>:<Link to='/ancient'><li>Древние обычаи и традиции казахской культуры</li></Link>}
-        {lang.lang === "En"?<li><a href="food.html">Kazakh national food</a></li>:<li><a href="food.html">Казахская национальная еда</a></li>}
       </ul>  
         </div>
     </li>
@@ -51,7 +50,7 @@ const About = observer(({lang}) => {
         </div>
         {lang.lang === "En"?<p>This site presents its readers with the opportunity to learn about one of the cultures of Central Asia - the Kazakh culture, which encompasses many features. The site also provides you with more information about the ancient culture of Kazakhstan to help you learn about its history.</p>:<p>Этот сайт представляет своим читателям возможность узнать об одной из культур Центральной Азии - казахской культуре, которая включает в себя множество особенностей. Сайт также предоставляет вам больше информации о древней культуре Казахстана, чтобы помочь вам узнать о его истории.</p>}  
         </div>
-        <p><a href="#" className="rollover78"> </a></p>
+        <p><a className="rollover78"> </a></p>
       </div>
 
       <div className='bibliography-pic'>

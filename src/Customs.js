@@ -28,7 +28,6 @@ const Customs = observer(({lang}) => {
         {lang.lang === "En"?<Link to='/traditions'><li>Traditions of Kazakh culture</li></Link>:<Link to='/elements'><li>Традиции казахской культуры</li></Link>}
         {lang.lang === "En"?<Link to='/customs'><li>Customs of Kazakh culture</li></Link>:<Link to='/customs'><li>Обычаи казахской культуры</li></Link>}
         {lang.lang === "En"?<Link to='/ancient'><li>Ancient customs and traditions of Kazakh culture</li></Link>:<Link to='/ancient'><li>Древние обычаи и традиции казахской культуры</li></Link>}
-        {lang.lang === "En"?<li><a href="food.html">Kazakh national food</a></li>:<li><a href="food.html">Казахская национальная еда</a></li>}
       </ul>  
         </div>
     </li>
@@ -54,7 +53,7 @@ const Customs = observer(({lang}) => {
         {lang.lang === "En"?<p>Hospitality is one of the main features of Kazakh culture. It has held an important place in the values of any Kazakh family since ancient times. One of the customs associated with hospitality is bata. When a guest was about to leave, the host family was supposed to give him a blessing. It is often expressed in poetic form and includes good wishes to the guest. Another custom associated with hospitality is shashu, which involves showering guests with sweets and money. This custom is often performed at weddings and other events when guests arrive.  </p>
         :<p>Гостеприимство является одной из главных особенностей казахской культуры. С древних времен она занимает важное место в ценностях любой казахской семьи. Одним из обычаев связанных с гостеприимством является бата. Когда гость собирается уходить, семья принимавшая гостя должна дать ему благословение. Она часто выражается в поэтической форме и включает добрые пожелания гостю. Другой обычай связанный с гостеприимством является шашу, он связан с осыпанием гостей конфетами и деньгами. Часто данный обычай проводится на свадьбах, и других мероприятий когда приходят гости.  </p>}  
         </div>
-        <p><a href="#" className="rollover15"> </a></p>
+        <p><a className="rollover15"> </a></p>
       </div>
 
     <div className="lines">
@@ -63,19 +62,19 @@ const Customs = observer(({lang}) => {
         </div>
         <div className="blocks1">
        <div className="item1">
-        <center><p><a href="#" className="rollover16"> </a></p></center>
+        <center><p><a className="rollover16"> </a></p></center>
         {lang.lang === "En"?<p>One of the customs associated with receiving guests is "konakasy", which is associated with presenting treats to guests. From ancient times to the present day, it have always been the Kazakh people's norm to treat a guest, no matter who the guest was to the family. In the Kazakh nation there were three kinds of guests, the first was "arnaiy konak" - a guest invited by the family, "kydyrma konak" - an unexpected guest, "kudaiy konak" - an accidental traveler.</p>
         :<p>Одним из обычаев, связанных с приемом гостей, является "конакасы", который связан с преподнесением угощений гостям. С древних времен и до наших дней у казахов всегда было нормой угощать гостя, независимо от того, кем он приходился семье. У казахского народа существовало три вида гостей, первый - "арнай конак" - гость, приглашенный семьей, "кыдырма конак" - нежданный гость, "кудайы конак" - случайный путник.</p>}
        </div>
 
       <div className="item2">
-        <center><p><a href="#" className="rollover17"> </a></p></center>
+        <center><p><a className="rollover17"> </a></p></center>
         {lang.lang === "En"?<p>Yerulik is a custom associated with newcomers. When newcomers came to the villages, a small party was organised for them to get acquainted with the newcomers and get them settled in quickly. In this custom, neighbours and inhabitants would help the newcomers with everyday chores and amenities.</p>
         :<p>Ерулик является обычаем, который связан с новоселенцами. Когда в деревни приезжали новые жители для них устраивали небольшой праздник для знакомства, быстрого адаптирования прибывшим. Помимо этого, в данном обычаи соседи и жители могли помогать новым приезжим с бытовым обустройством.</p>}
       </div>
 
       <div className="item3">
-        <center><p><a href="#" className="rollover18"> </a></p></center>
+        <center><p><a className="rollover18"> </a></p></center>
         {lang.lang === "En"?<p>In the custom of “Konakkade”, the hosts have the opportunity to ask the guest to sing a song or play a musical instrument. This is, in its own way, a pledge for a cheerful feast.</p>
         :<p>В обычае ”Конаккаде” хозяева имеют возможность попросить гостя исполнить какую либо песню или сыграть на музыкальном инструменте. Это является в своем образе залог для веселого застолья.</p>}
       </div>
@@ -87,7 +86,7 @@ const Customs = observer(({lang}) => {
         {lang.lang === "En"? <p>In Kazakh culture, there is a custom - "Suyinshi", which is associated with the fact that the person who brings good news will receive a gift from the family in gratitude. Another custom from ancient Kazakh culture is giving a gift of "Bes Zhaksy", which consists of 5 valuable items. The first is a camel, the second a high-speed horse, an expensive carpet, a diamond sabre and a sable coat. This gift was given to respected people in the Kazakh nation.</p>
         :<p>В казахской культуре существует обычай - “Сүйінші”, который связан с тем, что человек принесший хорошую новость, в благодарность от семьи получает подарок.  В древней казахской культуре существовал обычай дарить подарок “Бес жаксы”, который состоит из 5 ценных вещей. Первым является верблюд , второй быстроногий скакун, дорогой ковер, алмазная сабля, соболья шуба. Данный подарок преподносился уважаемым людям в казахском народе.</p>}  
         </div>
-        <p><a href="#" className="rollover19"> </a></p>
+        <p><a className="rollover19"> </a></p>
       </div>
 
       <div className="lines">
@@ -96,19 +95,19 @@ const Customs = observer(({lang}) => {
         </div>
         <div className="blocks1">
        <div className="item1">
-        <center><p><a href="#" className="rollover25"> </a></p></center>
+        <center><p><a className="rollover25"> </a></p></center>
         {lang.lang === "En"? <p>The first custom that is carried out when a child is born is the "Esim Koyu". This custom is a naming ceremony, which can be performed at other celebrations like shildehana or in normal circumstances. This ceremony is performed by respected people, who also bless the child.</p>
         :<p>Самым первым обычаем который осуществляется при рождении ребенка является “Есім кою”. Данный обычай это обряд имянаречения, он может проводится на других праздниках как шілдехана, либо в обычных условиях. Данный обряд дают исполнять уважаемым людям, которые кроме этого благословляют ребенка.</p>}  
        </div>
 
       <div className="item2">
-        <center><p><a href="#" className="rollover26"> </a></p></center>
+        <center><p><a className="rollover26"> </a></p></center>
         {lang.lang === "En"? <p>The second custom associated with the birth of a child is "Besik Toi" or "Besikke Salu". It is celebrated on the third or fifth day after the birth of the child. After the feast, the most important event begins - placing the child in a cradle. The baby was placed in the cradle by his grandmother, who first spread healing herbs to drive away evil spirits, wrapped the baby and tied ribbons around the cradle. Then the baby is placed in the cradle and covered with seven ritual items: a cloth and shawls for girls, a comb and mirror for the cot, a fur coat and shawl for boys, and a bridle for the cot.</p>
         :<p>Вторым обычаем который связан с рождением ребенка является “Бесік той” или “Бесікке салу”. Он отмечается на третий или пятый день после рождения ребенка. После застолья начиналось самое главное событие - укладывание ребенка в колыбель. В колыбель младенца укладывает бабушка, до этого она окуривает кроватку целебными травами для изгнания злых духов, пеленает младенца и перевязывает лентами. После этого ребенка кладут в колыбель, и накрывают его 7 ритуальными вещами: для девочек-ткани и платки, в кроватку кладут расческу и зеркало, для мальчиков-шуба,шапан, в кроватку-узду.</p>}  
       </div>
 
       <div className="item3">
-        <center><p><a href="#" className="rollover27"> </a></p></center>
+        <center><p><a className="rollover27"> </a></p></center>
         {lang.lang === "En"? <p>The third custom after the birth of a child is the "Kyrkynan Shygaru". Kyrkynan Shygaru is a ritual that takes place on the fortieth day after the baby is born. Until the 40th day the baby cannot have his/her hair and nails cut as it is considered as protection against evil spirits. Also, a baby should not be shown to strangers before that date. During the ritual, silver jewellery and coins are first placed in a wooden bowl. Then forty spoons of water are poured into the bowl and the baby is washed with this water, accompanying the process with kind wishes. Afterwards, jewellery from the bowl is given to the female guests, and the child's nails and hair are cut.</p>
         :<p>Третьим обычаем после рождения ребенка является “Кыркынан шыгару”. Кыркынан шыгару это обряд который проводится на сороковой день после рождения младенца.До наступления 40-го дня малышу нельзя стричь волосы и ногти, поскольку это считается защитой от злых духов. Также до этого дня ребенка нельзя показывать незнакомым людям. Во время ритуала серебряные украшения и монеты сначала кладут в деревянную чашу. Затем в чашу наливают сорок ложек воды и этой водой омывают младенца, сопровождая процесс добрыми пожеланиями. После этого украшения из чаши отдают гостям женского пола, а ребенку стригут ногти и волосы.</p>}
       </div>
@@ -120,7 +119,7 @@ const Customs = observer(({lang}) => {
         {lang.lang === "En"? <p>After "Kyz Uzatu", the bride's arrival was followed by a kelin tusiru celebration in which the bride was solemnly welcomed by her husband's relatives. On her way she was showered with sweets and sweets - "shashu". The bride's face was covered with a white shawl or veil before this ceremony. During this ceremony a zhyrshy-singer with a dombra performs betashar zhyrshy, introducing her to her husband's relatives and saying good wishes. At the end of the rite, the bridegroom's mother opens the bride's face and the wedding feast and celebrations begin.</p>  
         :<p>После “Кыз узату” по приезду невесты устраивался праздник келін түсіру, в котором невесту торжественно встречали родственники ее мужа. По пути ее осыпали конфетами и сладостями - “шашу”. После этого проводился обряд “беташар”, до этого обряда лицо невесты закрывалось белым платком или фатой. Во время этого обряда жыршы-певец с домброй исполняет беташар жыршы, во время которой он знакомит ее с родственниками мужа и говорит хорошие пожелания. По окончании обряда мать жениха открывала лицо невесты, начинался свадебный пир и празднования.</p>}
         </div>
-        <p><a href="#" className="rollover28"> </a></p>
+        <p><a className="rollover28"> </a></p>
       </div>
 
       <div className='bibliography'>
